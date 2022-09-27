@@ -1,0 +1,20 @@
+TDD Kata for get_Statistics.py
+
+1. Created a function to convert current samples to Array input. This fiunction returns the current sample array.
+    Function name : convertCurrentsamplesToArrayInput()
+2. Created a function to get the InputType of current Samples.  This will take current sample array as input and check whether the elements in the array are integers or not.
+    Function name : getInputTypeOfCurrentSamples()
+3. Written a function to get current sample readings as consecutive numbers.  This will sort the input current sample array.
+    Function name : getCurrentSampleReadingsAsConsecutiveNumbers()
+4. Written a function to get the start value of sorted current sample readings.  Start value will be stored in the variable "start".
+    Function name : getStartValueOfCurrentSampleRange()
+5. Created a function to get the end value of the sorted current sample readings.  End value will be stored in the variable "end".
+    Function name : getEndValueOfCurrentSampleRange()
+6. Created a function to get the consecutive samples range.   
+    Function name : getRangeWithValue()
+7. Written a function to convert the input array of current sample to range and reading count.
+    Function name : getConsecutiveGroupsWithNumberOfReadings()
+8. Created a function to format a string into a csv format.
+    Function name : getFormattedRangeAndReadingsCountOfCurrentSampleArr()
+    Eg: [3,3,4,5,10,11,12]
+    Result:  [3-5, 4] [10-12, 3]
